@@ -39,7 +39,7 @@ function Service() {
             </div>
           </div>
 
-          <div className=" flex justify-center mt-10">
+          <div className=" flex justify-center  mt-12">
             <div className=" flex gap-20">
               <div className="">
                 <div className="w-full flex justify-center">

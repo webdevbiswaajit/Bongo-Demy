@@ -22,10 +22,11 @@ function Start() {
                   </h2>
                 </div>
                 <div className="">
-                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center">
+                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center line1">
                     <p className=" text-light-green text-3xl">
                       <Icon icon="mdi:message-processing-outline" />
                     </p>
+                    <div className="line2"></div>
                   </div>
                 </div>
                 <div className="">
@@ -44,7 +45,7 @@ function Start() {
                   </h2>
                 </div>
                 <div className="">
-                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center">
+                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center  line1">
                     <p className=" text-light-green text-3xl">
                       <Icon icon="material-symbols:edit-square-outline-sharp" />
                     </p>
@@ -66,7 +67,7 @@ function Start() {
                   </h2>
                 </div>
                 <div className="">
-                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center">
+                  <div className=" w-24 h-24 bg-dark-blue rounded-full flex justify-center items-center  line1">
                     <p className=" text-light-green text-3xl">
                       <Icon icon="material-symbols:check-circle-outline-rounded" />
                     </p>

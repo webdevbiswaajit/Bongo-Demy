@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Menu() {
   return (
@@ -10,28 +11,28 @@ function Menu() {
             <div className=" col-span-6">
               <ul className="flex items-center  justify-end">
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Home
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Service
+                  <NavLink to="/service"> Service</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Training
+                  <NavLink to="/training"> Training</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Product
+                  <NavLink to="/product"> Product</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Company
+                  <NavLink to="/company"> Company</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Resources
+                  <NavLink to="/resources">Resources</NavLink>
                 </li>
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
-                  Contact Us
+                  <NavLink to="/contact">Contact Us</NavLink>
                 </li>
                 <li className=" text-base  font-rubic    bg- bg-dark-blue text-light-green  py-3 px-7  rounded-3xl">
-                  Sign Up/Login
+                  <NavLink to="/auth"> Sign Up/Login</NavLink>
                 </li>
               </ul>
             </div>

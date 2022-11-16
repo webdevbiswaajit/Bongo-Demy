@@ -18,3 +18,19 @@
   background: var(--swiper-pagination-bullet-inactive-color, #000);
   opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
 }
+
+/* ==========Home page=========== */
+.line1 {
+  position: relative;
+}
+
+.line1::after {
+  position: absolute;
+  content: '';
+  width: 165px;
+  height: 5px;
+  background: #1E2D40;
+  left: 100%;
+}
+
+/* ==========Home page=========== */

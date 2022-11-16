@@ -1,25 +1,10 @@
 import "./App.css";
-import Header from "./common/Header";
-import Menu from "./common/Menu";
-import Achievements from "./Components/Home/Achievements";
-import Hero from "./Components/Home/Hero";
-import SchoolSlide from "./Components/Home/SchoolSlide";
-import Service from "./Components/Home/Service";
-import ShortTour from "./Components/Home/ShortTour";
-import Start from "./Components/Home/Start";
-import Gap from "./pages/Gap";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
-      <Header />
-      <Menu />
-      <Hero />
-      <ShortTour />
-      <Service />
-      <SchoolSlide />
-      <Achievements />
-      <Start />
-      <Gap />
+      <Home />
     </>
   );
 }

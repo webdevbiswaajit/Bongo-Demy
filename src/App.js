@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./common/Header";
 import Menu from "./common/Menu";
+import Achievements from "./Components/Home/Achievements";
 import Hero from "./Components/Home/Hero";
 import SchoolSlide from "./Components/Home/SchoolSlide";
 import Service from "./Components/Home/Service";
@@ -15,6 +16,7 @@ function App() {
       <ShortTour />
       <Service />
       <SchoolSlide />
+      <Achievements />
       <Gap />
     </>
   );

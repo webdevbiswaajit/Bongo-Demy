@@ -3,6 +3,7 @@ import Header from "../common/Header";
 import Menu from "../common/Menu";
 import Achievements from "../Components/Home/Achievements";
 import Hero from "../Components/Home/Hero";
+import NewsLatter from "../Components/Home/NewsLatter";
 import SchoolSlide from "../Components/Home/SchoolSlide";
 import Service from "../Components/Home/Service";
 import ShortTour from "../Components/Home/ShortTour";
@@ -20,6 +21,7 @@ function Home() {
       <SchoolSlide />
       <Achievements />
       <Start />
+      <NewsLatter />
       <Gap />
     </>
   );

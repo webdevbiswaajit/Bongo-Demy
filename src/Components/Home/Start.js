@@ -30,7 +30,7 @@ function Start() {
                   </div>
                 </div>
                 <div className="">
-                  <p className="text-center text-white font-medium text-base mt-2">
+                  <p className="text-center  text-dark-blue font-medium text-base mt-2">
                     Discuss your <br /> project with us.
                   </p>
                 </div>
@@ -52,7 +52,7 @@ function Start() {
                   </div>
                 </div>
                 <div className="">
-                  <p className="text-center text-white font-medium text-base mt-2">
+                  <p className="text-centertext-dark-blue font-medium text-base mt-2">
                     Sign service <br /> agreement
                   </p>
                 </div>
@@ -60,7 +60,7 @@ function Start() {
               <div className=" flex flex-col items-center  ">
                 <div className="">
                   <h2
-                    className=" font-bold text-base  text-center text-white font-rubic mb-2
+                    className=" font-bold text-base  text-center text-white  font-rubic mb-2
                   "
                   >
                     In 24 hours
@@ -74,7 +74,7 @@ function Start() {
                   </div>
                 </div>
                 <div className="">
-                  <p className="text-center text-white font-medium text-base mt-2">
+                  <p className="text-center text-dark-blue  font-medium text-base mt-2">
                     Schedule team allocation, <br /> Set up communication,{" "}
                     <br /> prioritize tasks, <br /> and set milestones.
                   </p>
@@ -97,7 +97,7 @@ function Start() {
                   </div>
                 </div>
                 <div className="">
-                  <p className="text-center text-white font-medium text-base mt-2">
+                  <p className="text-center text-dark-blue  font-medium text-base mt-2">
                     Start getting services
                   </p>
                 </div>

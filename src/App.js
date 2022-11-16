@@ -6,6 +6,7 @@ import Hero from "./Components/Home/Hero";
 import SchoolSlide from "./Components/Home/SchoolSlide";
 import Service from "./Components/Home/Service";
 import ShortTour from "./Components/Home/ShortTour";
+import Start from "./Components/Home/Start";
 import Gap from "./pages/Gap";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Service />
       <SchoolSlide />
       <Achievements />
+      <Start />
       <Gap />
     </>
   );

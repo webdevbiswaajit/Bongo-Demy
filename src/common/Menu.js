@@ -1,15 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Icon } from "@iconify/react";
 
 function Menu() {
   return (
     <>
       <div className=" bg-light-green py-5">
         <div className="container mx-auto">
-          <div className=" grid grid-cols-8">
-            <div className=" col-span-2"></div>
+          <div className="grid grid-cols-8 items-center">
+            <div className=" col-span-2">
+              <p className=" text-3xl  text-dark-blue">
+                <Icon icon="ion:menu" />
+              </p>
+            </div>
             <div className=" col-span-6">
-              <ul className="flex items-center  justify-end">
+              <ul className="sm:flex items-center  justify-end">
                 <li className=" mr-12 text-base text-black  leading-5 from-emerald-500 font-rubic">
                   <NavLink to="/">Home</NavLink>
                 </li>

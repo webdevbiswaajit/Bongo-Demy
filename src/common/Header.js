@@ -9,7 +9,7 @@ function Header() {
         <div className="container mx-auto">
           <div className="flex justify-between items-center ">
             <div className="">
-              <img src={logo} alt="logo" />
+              <img className="" src={logo} alt="logo" />
             </div>
             <div className="">
               <p className=" text-white bg-light-green font-rubic py-3 px-7  rounded-3xl">

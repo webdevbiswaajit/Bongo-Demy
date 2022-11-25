@@ -4,7 +4,7 @@ import service2 from "../../img/s2.png";
 import service3 from "../../img/s3.png";
 import service4 from "../../img/s4.png";
 
-function Service() {
+function ServiceSec() {
   return (
     <>
       <div className=" bg-dark-blue py-12">
@@ -65,4 +65,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default ServiceSec;

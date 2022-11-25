@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <>
-      <div className=" bg-dark-blue">
+      <div className="bg-dark-blue">
         <div className="container  mx-auto">
-          <div className=" py-24">
+          <div className="py-24">
             <p className=" text-white font-medium text-base leading-6 font-rubic">
               Do you know a cyber attack ruins a company in a moment, and
               cyberbullying can cause suicide? <br /> BongoDemy. A cybersecurity
